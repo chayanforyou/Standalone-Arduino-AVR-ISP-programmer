@@ -86,6 +86,9 @@ void setup () {
   // OC1A output, fast PWM
   TCCR1A = _BV(WGM11) | _BV(COM1A1);
   TCCR1B = _BV(WGM13) | _BV(WGM12) | _BV(CS10); // no clock prescale
+
+
+
   
 }
 
@@ -213,17 +216,39 @@ void loop (void) {
     Serial.println("Fuses verified correctly!");
   }
   target_poweroff();			/* turn power off */
-  tone(PIEZOPIN, 4000, 200);
+  programmingSucess();
 }
 
+void programmingSucess(){
+  tone(PIEZOPIN, 523, 100);
+  delay(400);
+  tone(PIEZOPIN, 523, 200);
+  delay(200);
+  tone(PIEZOPIN, 698, 800);
+  delay(500);
+  digitalWrite(LED_PROGMODE, LOW);
+}
 
+void programmingError(){
+    digitalWrite(LED_ERR, HIGH);
+    digitalWrite(LED_PROGMODE, LOW);
+    tone(PIEZOPIN, 622, 500);
+    delay(500);
+    digitalWrite(LED_ERR, LOW);
+    digitalWrite(LED_PROGMODE, HIGH);
+    tone(PIEZOPIN, 460, 500);
+    delay(500);
+}
 
 void error(const char *string) {
   Serial.println(string); 
   digitalWrite(LED_ERR, HIGH);  
-  while(1) {
-    tone(PIEZOPIN, 4000, 500);
+
+  
+  while(digitalRead(BUTTON)) {
+    programmingError();
   }
+  
 }
 
 void start_pmode () {
@@ -267,8 +292,7 @@ void end_pmode () {
  * target_poweron
  * begin programming
  */
-boolean target_poweron ()
-{
+boolean target_poweron (){
   pinMode(LED_PROGMODE, OUTPUT);
   digitalWrite(LED_PROGMODE, HIGH);
   digitalWrite(RESET, LOW);  // reset it right away.
@@ -280,14 +304,8 @@ boolean target_poweron ()
   return true;
 }
 
-boolean target_poweroff ()
-{
+boolean target_poweroff (){
   end_pmode();
-  digitalWrite(LED_PROGMODE, LOW);
+  
   return true;
 }
-
-
-
-
-
