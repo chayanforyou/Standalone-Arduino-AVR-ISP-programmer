@@ -1,5 +1,0 @@
-*.sch linguist-language=Eagle
-*.brd linguist-language=Eagle
-
-*.sch linguist-detectable=true
-*.brd linguist-detectable=true
