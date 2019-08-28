@@ -14166,7 +14166,7 @@ Source: http://www.3M.com/ehpd</description>
 <plain>
 <text x="187.325" y="26.035" size="3.81" layer="94">Tiago Silva</text>
 <text x="170.18" y="19.685" size="2.286" layer="94">github.com/TiagoPaulaSilva/GimmeSoul</text>
-<text x="252.095" y="1.27" size="2.54" layer="94" ratio="5">1.0</text>
+<text x="253.365" y="1.27" size="2.54" layer="94" ratio="5">1.0</text>
 <text x="180.975" y="6.35" size="2.54" layer="94" ratio="5">Complete Schematic</text>
 <wire x1="3.81" y1="176.53" x2="3.81" y2="67.31" width="0.254" layer="152" style="longdash"/>
 <wire x1="3.81" y1="67.31" x2="113.03" y2="67.31" width="0.254" layer="152" style="longdash"/>
