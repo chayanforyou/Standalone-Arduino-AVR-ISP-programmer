@@ -1,8 +1,9 @@
 # GimmeSoul
 
-GimmeSoul is a standalone programmer for ATmega328P bootloader. It can be used to facilitate programming of chips used by [Arduino UNO](https://store.arduino.cc/usa/arduino-uno-rev3) and [Senaino](https://github.com/TiagoPaulaSilva/Senaino), for example.
+GimmeSoul is a standalone programmer for ATmega328P bootloader. It can be used to facilitate programming of chips used by [Arduino UNO](https://store.arduino.cc/usa/arduino-uno-rev3) and [Senaino](https://github.com/TiagoPaulaSilva/Senaino), for example. This makes the process of flash the ICs much faster than conventional and eliminates the need for a computer.
 
-
+## PCB Gerber Preview
+![enter image description here](https://lh3.googleusercontent.com/xQAo9f4s-tdPdV2MmU62j2VVQs5Bv0qeDdJKykYc2Has5p-6kLn2-y-WIsxp6iU_SrC0nF94Y5evwA)
 
 ## Schematic
 ![enter image description here](https://lh3.googleusercontent.com/xh6YEpI6eqR7HV2WMnanzenT6GLX-yLejmNyun9lXByH6C8AQCKfFEq86NfEl2n-vUkJiCi6DNWxdQ=s1000)
