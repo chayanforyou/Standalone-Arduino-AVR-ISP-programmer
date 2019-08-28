@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10408,113 +10408,116 @@ Source: www.kingbright.com</description>
 <description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SJ_2W" urn="urn:adsk.eagle:footprint:15438/1" library_version="1">
+<package name="SJ" urn="urn:adsk.eagle:footprint:15432/1" library_version="1">
 <description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="3.175" y1="-1.524" x2="-3.175" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.524" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-3.429" y1="1.27" x2="-3.175" y2="1.524" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-3.429" y1="-1.27" x2="-3.175" y2="-1.524" width="0.1524" layer="21" curve="90"/>
-<wire x1="3.175" y1="-1.524" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="3.429" y1="-1.27" x2="3.429" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-1.27" x2="-3.429" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.524" x2="3.175" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="2.794" y1="0" x2="3.302" y2="0" width="0.1524" layer="51"/>
-<wire x1="-2.794" y1="0" x2="-3.302" y2="0" width="0.1524" layer="51"/>
-<wire x1="0" y1="0.762" x2="0" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="0" y1="-1.397" x2="0" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="2.032" y1="0.127" x2="2.032" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<smd name="1" x="-2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
-<smd name="2" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
-<smd name="3" x="2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
-<text x="-3.429" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
 </package>
-<package name="SJ_2" urn="urn:adsk.eagle:footprint:15439/1" library_version="1">
+<package name="SJW" urn="urn:adsk.eagle:footprint:15433/1" library_version="1">
 <description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="2.159" y1="1.016" x2="2.413" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.413" y1="0.762" x2="-2.159" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.413" y1="-0.762" x2="-2.159" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.159" y1="-1.016" x2="2.413" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.413" y1="-0.762" x2="2.413" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="0" x2="-2.286" y2="0" width="0.1524" layer="51"/>
-<wire x1="0" y1="0.762" x2="0" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="0" y1="-1.016" x2="0" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="1.016" y1="0.127" x2="1.016" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<smd name="1" x="-1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<text x="-2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
+<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
+<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
+<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
+<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
+<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
+<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
+<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
+<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
+<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
+<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
+<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
+<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
+<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
+<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="SJ_2W" urn="urn:adsk.eagle:package:15476/1" type="box" library_version="1">
+<package3d name="SJ" urn="urn:adsk.eagle:package:15471/1" type="box" library_version="1">
 <description>Solder jumper</description>
 <packageinstances>
-<packageinstance name="SJ_2W"/>
+<packageinstance name="SJ"/>
 </packageinstances>
 </package3d>
-<package3d name="SJ_2" urn="urn:adsk.eagle:package:15474/1" type="box" library_version="1">
+<package3d name="SJW" urn="urn:adsk.eagle:package:15507/1" type="box" library_version="1">
 <description>Solder jumper</description>
 <packageinstances>
-<packageinstance name="SJ_2"/>
+<packageinstance name="SJW"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="SJ_2" urn="urn:adsk.eagle:symbol:15437/1" library_version="1">
-<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
-<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
-<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<symbol name="SJ" urn="urn:adsk.eagle:symbol:15431/1" library_version="1">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SJ2W" urn="urn:adsk.eagle:component:15505/1" prefix="SJ" uservalue="yes" library_version="1">
+<deviceset name="SJ" urn="urn:adsk.eagle:component:15508/1" prefix="SJ" uservalue="yes" library_version="1">
 <description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="SJ_2" x="0" y="0"/>
+<gate name="1" symbol="SJ" x="0" y="0"/>
 </gates>
 <devices>
-<device name="W" package="SJ_2W">
+<device name="" package="SJ">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15476/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15471/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="SJ_2">
+<device name="W" package="SJW">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15474/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15507/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -13683,34 +13686,34 @@ Source: http://www.3M.com/ehpd</description>
 <wire x1="14.859" y1="2.032" x2="14.859" y2="6.604" width="0.1016" layer="51"/>
 <circle x="-24.75" y="0" radius="1.53" width="0.1016" layer="21"/>
 <circle x="21.23" y="0" radius="1.53" width="0.1016" layer="21"/>
-<pad name="1" x="-16.51" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="2" x="-13.97" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="3" x="-11.43" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="4" x="-8.89" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="5" x="-6.35" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="6" x="-3.81" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="7" x="-1.27" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="8" x="1.27" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="9" x="3.81" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="10" x="6.35" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="11" x="8.89" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="12" x="11.43" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="13" x="13.97" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="14" x="16.51" y="-5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="15" x="16.51" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="16" x="13.97" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="17" x="11.43" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="18" x="8.89" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="19" x="6.35" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="20" x="3.81" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="21" x="1.27" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="22" x="-1.27" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="23" x="-3.81" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="24" x="-6.35" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="25" x="-8.89" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="26" x="-11.43" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="27" x="-13.97" y="5.08" drill="0.9" shape="long" rot="R90"/>
-<pad name="28" x="-16.51" y="5.08" drill="0.9" shape="long" rot="R90"/>
+<pad name="1" x="-16.51" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="2" x="-13.97" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="3" x="-11.43" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="4" x="-8.89" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="5" x="-6.35" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="6" x="-3.81" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="7" x="-1.27" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="8" x="1.27" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="9" x="3.81" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="10" x="6.35" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="11" x="8.89" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="12" x="11.43" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="13" x="13.97" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="14" x="16.51" y="-3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="15" x="16.51" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="16" x="13.97" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="17" x="11.43" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="18" x="8.89" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="19" x="6.35" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="20" x="3.81" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="21" x="1.27" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="22" x="-1.27" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="23" x="-3.81" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="24" x="-6.35" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="25" x="-8.89" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="26" x="-11.43" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="27" x="-13.97" y="3.5" drill="1.2" shape="long" rot="R90"/>
+<pad name="28" x="-16.51" y="3.5" drill="1.2" shape="long" rot="R90"/>
 <text x="-25.4" y="-11.43" size="1.27" layer="25">&gt;NAME</text>
 <text x="-16.51" y="-11.43" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="21.24" y="0" drill="2"/>
@@ -14147,7 +14150,6 @@ Source: http://www.3M.com/ehpd</description>
 <part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
@@ -14160,6 +14162,8 @@ Source: http://www.3M.com/ehpd</description>
 <part name="U2" library="REG1117" deviceset="REG1117" device="" value="REG1117-5.0"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="1N4007"/>
 <part name="SG5" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="F/QMBIII" device="" package3d_urn="urn:adsk.eagle:package:5267/1" value="5V PASSIVE"/>
+<part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -14188,21 +14192,26 @@ Source: http://www.3M.com/ehpd</description>
 <text x="149.86" y="172.72" size="3.302" layer="152" ratio="5" align="center">TARGET MCU</text>
 <text x="224.79" y="172.72" size="3.302" layer="152" ratio="5" align="center">ICSP HEADERS</text>
 <text x="122.555" y="60.325" size="3.302" layer="152" ratio="5" align="center">USER INTERFACE</text>
-<text x="223.52" y="113.03" size="6.4516" layer="98">*</text>
-<text x="191.135" y="91.44" size="6.4516" layer="98">*</text>
-<text x="195.58" y="92.71" size="1.778" layer="152" align="center-left">SJ1 - Position 2-3:
-On the first use of the GimmeSoul, 
-this position allows you to programming
-the U1 bootloader using an Arduino UNO.</text>
-<text x="195.58" y="78.74" size="1.778" layer="152" align="center-left">SJ1 - Position 2-1:
-Position for conventional use of GimmeSoul.
-This position allows you to standalone
-programming the bootloader of other ATmega.</text>
+<text x="218.44" y="127" size="5.08" layer="98" font="vector" align="center">*</text>
+<text x="197.1675" y="103.8225" size="6.4516" layer="98" font="vector" align="center">*</text>
+<text x="200.025" y="92.3925" size="1.778" layer="152" align="center-left">On the first use of the GimmeSoul
+(U1 bootloader programing):
+
+SJ1 = OPEN
+SJ2 = CLOSE
+
+After,
+
+SJ1 = CLOSE
+SJ2 = OPEN</text>
 <wire x1="3.81" y1="64.135" x2="83.82" y2="64.135" width="0.254" layer="152" style="longdash"/>
 <wire x1="3.81" y1="3.175" x2="3.81" y2="64.135" width="0.254" layer="152" style="longdash"/>
 <wire x1="83.82" y1="3.175" x2="3.81" y2="3.175" width="0.254" layer="152" style="longdash"/>
 <wire x1="83.82" y1="3.175" x2="83.82" y2="64.135" width="0.254" layer="152" style="longdash"/>
 <text x="43.815" y="60.325" size="3.302" layer="152" ratio="5" align="center">EXTERNAL POWER SUPPLY</text>
+<text x="10.16" y="27.6225" size="1.27" layer="152" ratio="5" align="center">DC Power
+Jack J4</text>
+<text x="218.44" y="163.83" size="5.08" layer="98" font="vector" align="center">*</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -14215,23 +14224,23 @@ programming the bootloader of other ATmega.</text>
 <attribute name="VALUE" x="122.555" y="165.735" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="JP4" gate="A" x="255.27" y="82.55" smashed="yes" rot="MR180">
-<attribute name="NAME" x="258.191" y="75.946" size="1.778" layer="95" rot="MR90"/>
+<attribute name="NAME" x="258.191" y="87.376" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="248.92" y="95.25" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="JP2" gate="A" x="255.27" y="125.73" smashed="yes" rot="MR180">
-<attribute name="NAME" x="257.937" y="121.92" size="1.778" layer="95" rot="MR90"/>
+<attribute name="NAME" x="257.937" y="135.89" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="248.92" y="143.51" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="JP3" gate="A" x="255.27" y="104.14" smashed="yes" rot="MR180">
-<attribute name="NAME" x="257.937" y="97.79" size="1.778" layer="95" rot="MR90"/>
+<attribute name="NAME" x="257.937" y="106.68" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="248.92" y="114.3" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="JP1" gate="A" x="255.27" y="152.4" smashed="yes">
-<attribute name="NAME" x="259.715" y="148.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="259.715" y="161.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="248.92" y="139.7" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY6" gate="+5V" x="220.98" y="162.56" smashed="yes">
-<attribute name="VALUE" x="219.075" y="165.735" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="+5V" x="196.85" y="162.56" smashed="yes">
+<attribute name="VALUE" x="194.945" y="165.735" size="1.778" layer="96"/>
 </instance>
 <instance part="U1" gate="A" x="66.04" y="118.11" smashed="yes">
 <attribute name="NAME" x="53.4416" y="150.5204" size="2.032" layer="95" ratio="10" rot="SR0"/>
@@ -14260,7 +14269,7 @@ programming the bootloader of other ATmega.</text>
 </instance>
 <instance part="ZX1" gate="G$1" x="151.13" y="119.38" smashed="yes">
 <attribute name="NAME" x="143.51" y="95.25" size="1.778" layer="95"/>
-<attribute name="VALUE" x="143.51" y="95.25" size="1.778" layer="96"/>
+<attribute name="VALUE" x="143.51" y="95.25" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY5" gate="+5V" x="181.61" y="162.56" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="183.515" y="165.735" size="1.778" layer="96" rot="MR0"/>
@@ -14282,8 +14291,8 @@ programming the bootloader of other ATmega.</text>
 <instance part="GND12" gate="1" x="196.85" y="125.73" smashed="yes">
 <attribute name="VALUE" x="194.31" y="123.19" size="1.778" layer="96"/>
 </instance>
-<instance part="GND13" gate="1" x="220.98" y="142.24" smashed="yes">
-<attribute name="VALUE" x="218.44" y="139.7" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="196.85" y="142.24" smashed="yes">
+<attribute name="VALUE" x="194.31" y="139.7" size="1.778" layer="96"/>
 </instance>
 <instance part="GND11" gate="1" x="179.07" y="73.66" smashed="yes">
 <attribute name="VALUE" x="176.53" y="71.12" size="1.778" layer="96"/>
@@ -14315,10 +14324,6 @@ programming the bootloader of other ATmega.</text>
 <instance part="GND10" gate="1" x="144.78" y="10.16" smashed="yes">
 <attribute name="VALUE" x="142.24" y="7.62" size="1.778" layer="96"/>
 </instance>
-<instance part="SJ1" gate="G$1" x="220.98" y="120.65" smashed="yes" rot="R180">
-<attribute name="NAME" x="218.44" y="121.539" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="218.44" y="122.555" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="S1" gate="1" x="99.06" y="24.13" smashed="yes">
 <attribute name="NAME" x="92.71" y="21.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="95.25" y="27.305" size="1.778" layer="96" rot="R90"/>
@@ -14348,20 +14353,28 @@ programming the bootloader of other ATmega.</text>
 <attribute name="NAME" x="59.563" y="30.9626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="68.0974" y="27.178" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CN1" gate="G$1" x="11.43" y="33.02" smashed="yes">
-<attribute name="NAME" x="10.16" y="27.94" size="1.27" layer="95"/>
+<instance part="CN1" gate="G$1" x="8.255" y="33.02" smashed="yes">
+<attribute name="NAME" x="6.6675" y="37.7825" size="1.778" layer="95"/>
 </instance>
 <instance part="U2" gate="G$1" x="50.8" y="34.29" smashed="yes">
 <attribute name="NAME" x="44.448809375" y="40.640890625" size="1.77828125" layer="95" ratio="10"/>
 <attribute name="VALUE" x="44.442090625" y="38.73895" size="1.4224" layer="96" ratio="10"/>
 </instance>
 <instance part="D2" gate="G$1" x="21.59" y="35.56" smashed="yes">
-<attribute name="NAME" x="17.145" y="39.8526" size="1.778" layer="95"/>
+<attribute name="NAME" x="17.145" y="40.1701" size="1.778" layer="95"/>
 <attribute name="VALUE" x="17.145" y="37.6936" size="1.778" layer="96"/>
 </instance>
 <instance part="SG5" gate="G$1" x="147.32" y="22.86" smashed="yes" rot="MR90">
 <attribute name="NAME" x="153.67" y="20.32" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="147.32" y="27.94" size="1.778" layer="96" rot="MR90" display="off"/>
+</instance>
+<instance part="SJ2" gate="1" x="222.25" y="120.65" smashed="yes">
+<attribute name="NAME" x="220.345" y="122.555" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ1" gate="1" x="222.25" y="157.48" smashed="yes">
+<attribute name="NAME" x="220.345" y="159.385" size="1.778" layer="95"/>
+<attribute name="VALUE" x="219.71" y="153.67" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14375,14 +14388,9 @@ programming the bootloader of other ATmega.</text>
 <wire x1="140.97" y1="119.38" x2="120.65" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="152.4" x2="220.98" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="252.73" y1="152.4" x2="242.57" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="242.57" y1="152.4" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="252.73" y1="160.02" x2="242.57" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="242.57" y1="160.02" x2="242.57" y2="152.4" width="0.1524" layer="91"/>
-<junction x="242.57" y="152.4"/>
+<wire x1="196.85" y1="152.4" x2="196.85" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="252.73" y1="152.4" x2="196.85" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="5"/>
-<pinref part="JP1" gate="A" pin="2"/>
 <pinref part="SUPPLY6" gate="+5V" pin="+5V"/>
 </segment>
 <segment>
@@ -14435,11 +14443,11 @@ programming the bootloader of other ATmega.</text>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="149.86" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="147.32" x2="220.98" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="252.73" y1="149.86" x2="220.98" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="252.73" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
-<junction x="220.98" y="147.32"/>
+<wire x1="196.85" y1="149.86" x2="196.85" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="147.32" x2="196.85" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="252.73" y1="149.86" x2="196.85" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="252.73" y1="147.32" x2="196.85" y2="147.32" width="0.1524" layer="91"/>
+<junction x="196.85" y="147.32"/>
 <pinref part="JP1" gate="A" pin="6"/>
 <pinref part="JP1" gate="A" pin="7"/>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -14524,8 +14532,8 @@ programming the bootloader of other ATmega.</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="26.67" y1="25.4" x2="26.67" y2="22.86" width="0.1524" layer="91"/>
 <junction x="26.67" y="22.86"/>
-<wire x1="16.51" y1="22.86" x2="26.67" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="16.8275" y1="22.86" x2="26.67" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="36.83" y1="25.4" x2="36.83" y2="22.86" width="0.1524" layer="91"/>
 <junction x="36.83" y="22.86"/>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -14537,12 +14545,14 @@ programming the bootloader of other ATmega.</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="73.66" y1="12.7" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <junction x="73.66" y="22.86"/>
-<wire x1="16.51" y1="30.48" x2="16.51" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="CN1" gate="G$1" pin="RING"/>
-<pinref part="CN1" gate="G$1" pin="RING_SW"/>
-<wire x1="16.51" y1="33.02" x2="16.51" y2="30.48" width="0.1524" layer="91"/>
-<junction x="16.51" y="30.48"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="CN1" gate="G$1" pin="RING_SW"/>
+<wire x1="13.335" y1="33.02" x2="16.8275" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="16.8275" y1="33.02" x2="16.8275" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="RING"/>
+<wire x1="16.8275" y1="30.48" x2="16.8275" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="13.335" y1="30.48" x2="16.8275" y2="30.48" width="0.1524" layer="91"/>
+<junction x="16.8275" y="30.48"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -14581,10 +14591,9 @@ programming the bootloader of other ATmega.</text>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="SJ1" gate="G$1" pin="3"/>
-<wire x1="220.98" y1="125.73" x2="220.98" y2="127" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="127" x2="217.17" y2="127" width="0.1524" layer="91"/>
-<label x="217.17" y="127" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+<wire x1="217.17" y1="120.65" x2="214.63" y2="120.65" width="0.1524" layer="91"/>
+<label x="214.63" y="120.65" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+<pinref part="SJ2" gate="1" pin="1"/>
 </segment>
 <segment>
 <pinref part="S1" gate="1" pin="S"/>
@@ -14655,10 +14664,9 @@ programming the bootloader of other ATmega.</text>
 <label x="45.72" y="113.03" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SJ1" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="115.57" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="114.3" x2="217.17" y2="114.3" width="0.1524" layer="91"/>
-<label x="217.17" y="114.3" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+<label x="214.63" y="157.48" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+<pinref part="SJ1" gate="1" pin="1"/>
+<wire x1="217.17" y1="157.48" x2="214.63" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -14730,7 +14738,7 @@ programming the bootloader of other ATmega.</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="19.05" y1="35.56" x2="16.51" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="19.05" y1="35.56" x2="13.335" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="TIP"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 </segment>
@@ -14753,9 +14761,16 @@ programming the bootloader of other ATmega.</text>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="SJ1" gate="G$1" pin="2"/>
 <pinref part="JP2" gate="A" pin="3"/>
-<wire x1="226.06" y1="120.65" x2="252.73" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="227.33" y1="120.65" x2="252.73" y2="120.65" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="1" pin="2"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="SJ1" gate="1" pin="2"/>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="227.33" y1="157.48" x2="252.73" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
