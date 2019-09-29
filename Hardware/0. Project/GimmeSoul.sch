@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -77,7 +77,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
@@ -15455,25 +15455,25 @@ Source: 008-0260-0_E.pdf</description>
 <part name="JP3" library="SmartPrj" deviceset="PINHD-1X6" device=""/>
 <part name="JP1" library="SmartPrj" deviceset="PINHD-1X8" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
-<part name="U1" library="Atmel_By_element14_Batch_1-00" deviceset="ATMEGA328P-AU" device=""/>
+<part name="U1" library="Atmel_By_element14_Batch_1-00" deviceset="ATMEGA328P-AU" device="" value=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100 nF / 50V"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100 nF / 50V"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="ZX1" library="con-3m" deviceset="228-?00-0602J" device="4817-" package3d_urn="urn:adsk.eagle:package:5560/1" value="228-4817-00-0602J"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k ±5%"/>
+<part name="ZX1" library="con-3m" deviceset="228-?00-0602J" device="4817-" package3d_urn="urn:adsk.eagle:package:5560/1" value=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R ±5%"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="Green"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100R ±5%"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2" value="Red"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S2" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
@@ -15482,20 +15482,20 @@ Source: 008-0260-0_E.pdf</description>
 <part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" package3d_urn="urn:adsk.eagle:package:27496/1"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100 nF / 50V"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF / 50V"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
-<part name="CN1" library="adafruit" deviceset="2.1MMJACK" device="THM" package3d_urn="urn:adsk.eagle:package:6240341/1"/>
-<part name="U2" library="REG1117" deviceset="REG1117" device="" value="REG1117-5.0"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100 nF / 50V"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF / 50V"/>
+<part name="CN1" library="adafruit" deviceset="2.1MMJACK" device="THM" package3d_urn="urn:adsk.eagle:package:6240341/1" value=""/>
+<part name="U2" library="REG1117" deviceset="REG1117" device="" value="LM1117MP-5.0"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1" value="1N4007"/>
-<part name="SG5" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="F/QMBIII" device="" package3d_urn="urn:adsk.eagle:package:5267/1" value="5V PASSIVE"/>
+<part name="SG5" library="buzzer" library_urn="urn:adsk.eagle:library:113" deviceset="F/QMBIII" device="" package3d_urn="urn:adsk.eagle:package:5267/1" value="5V Passive"/>
 <part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49S" package3d_urn="urn:adsk.eagle:package:12071/1" value="16 MHz"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22pF"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22pF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 pF / 50V"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 pF / 50V"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -15585,21 +15585,21 @@ Jack J4</text>
 </instance>
 <instance part="C2" gate="G$1" x="20.32" y="113.03" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.129" y="115.951" size="1.778" layer="95"/>
-<attribute name="VALUE" x="25.019" y="110.109" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="25.019" y="108.204" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND2" gate="1" x="20.32" y="73.66" smashed="yes">
 <attribute name="VALUE" x="17.78" y="71.12" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="10.16" y="113.03" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.969" y="115.951" size="1.778" layer="95"/>
-<attribute name="VALUE" x="14.859" y="110.109" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="14.859" y="108.204" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND3" gate="1" x="48.26" y="73.66" smashed="yes">
 <attribute name="VALUE" x="45.72" y="71.12" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="88.9" y="152.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="87.4014" y="151.765" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="91.567" y="152.4" size="1.27" layer="96" rot="R90"/>
+<attribute name="VALUE" x="92.202" y="149.225" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="ZX1" gate="G$1" x="151.13" y="119.38" smashed="yes">
 <attribute name="NAME" x="143.51" y="95.25" size="1.778" layer="95"/>
@@ -15616,11 +15616,11 @@ Jack J4</text>
 </instance>
 <instance part="R2" gate="G$1" x="123.19" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="121.6914" y="29.845" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="125.857" y="28.575" size="1.27" layer="96" rot="R90"/>
+<attribute name="VALUE" x="126.492" y="26.67" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="LED1" gate="G$1" x="123.19" y="20.32" smashed="yes">
 <attribute name="NAME" x="126.746" y="15.748" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="128.905" y="15.748" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="128.905" y="15.113" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND12" gate="1" x="196.85" y="125.73" smashed="yes">
 <attribute name="VALUE" x="194.31" y="123.19" size="1.778" layer="96"/>
@@ -15639,17 +15639,17 @@ Jack J4</text>
 </instance>
 <instance part="R3" gate="G$1" x="134.62" y="30.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="133.1214" y="29.845" size="1.27" layer="95" rot="R90"/>
-<attribute name="VALUE" x="137.287" y="28.575" size="1.27" layer="96" rot="R90"/>
+<attribute name="VALUE" x="138.557" y="26.67" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="LED2" gate="G$1" x="134.62" y="20.32" smashed="yes">
 <attribute name="NAME" x="138.176" y="15.748" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="140.335" y="15.748" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="140.335" y="16.383" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND9" gate="1" x="134.62" y="10.16" smashed="yes">
 <attribute name="VALUE" x="132.08" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="S2" gate="1" x="111.76" y="24.13" smashed="yes">
-<attribute name="NAME" x="105.41" y="21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="106.045" y="22.225" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="107.95" y="27.305" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND6" gate="1" x="111.76" y="10.16" smashed="yes">
@@ -15659,7 +15659,7 @@ Jack J4</text>
 <attribute name="VALUE" x="142.24" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="1" x="99.06" y="24.13" smashed="yes">
-<attribute name="NAME" x="92.71" y="21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="93.345" y="22.225" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="95.25" y="27.305" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND5" gate="1" x="99.06" y="10.16" smashed="yes">
@@ -15670,22 +15670,22 @@ Jack J4</text>
 </instance>
 <instance part="C4" gate="G$1" x="36.83" y="30.48" smashed="yes">
 <attribute name="NAME" x="32.639" y="30.861" size="1.778" layer="95"/>
-<attribute name="VALUE" x="41.529" y="25.654" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="40.894" y="24.384" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="C3" gate="G$1" x="26.67" y="30.48" smashed="yes">
 <attribute name="NAME" x="22.733" y="30.9626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="31.2674" y="27.178" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="30.6324" y="24.638" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="GND4" gate="1" x="73.66" y="10.16" smashed="yes">
 <attribute name="VALUE" x="71.12" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="C6" gate="G$1" x="73.66" y="30.48" smashed="yes">
 <attribute name="NAME" x="69.469" y="30.861" size="1.778" layer="95"/>
-<attribute name="VALUE" x="78.359" y="25.654" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="77.724" y="24.384" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="C5" gate="G$1" x="63.5" y="30.48" smashed="yes">
 <attribute name="NAME" x="59.563" y="30.9626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="68.0974" y="27.178" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="67.4624" y="25.273" size="1.27" layer="96" rot="R90"/>
 </instance>
 <instance part="CN1" gate="G$1" x="8.255" y="33.02" smashed="yes">
 <attribute name="NAME" x="6.6675" y="37.7825" size="1.778" layer="95"/>
@@ -15699,8 +15699,8 @@ Jack J4</text>
 <attribute name="VALUE" x="17.145" y="37.6936" size="1.778" layer="96"/>
 </instance>
 <instance part="SG5" gate="G$1" x="147.32" y="22.86" smashed="yes" rot="MR90">
-<attribute name="NAME" x="153.67" y="20.32" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="147.32" y="27.94" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="NAME" x="153.035" y="29.21" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="154.94" y="17.78" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="SJ2" gate="1" x="222.25" y="120.65" smashed="yes">
 <attribute name="NAME" x="220.345" y="122.555" size="1.778" layer="95"/>
@@ -15711,16 +15711,16 @@ Jack J4</text>
 <attribute name="VALUE" x="219.71" y="153.67" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="G$1" x="34.29" y="95.25" smashed="yes">
-<attribute name="NAME" x="32.7025" y="97.8535" size="1.778" layer="95"/>
-<attribute name="VALUE" x="30.1625" y="91.1225" size="1.778" layer="96"/>
+<attribute name="NAME" x="32.7025" y="100.3935" size="1.778" layer="95"/>
+<attribute name="VALUE" x="30.1625" y="97.4725" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="29.21" y="82.55" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.654" y="85.471" size="1.778" layer="95"/>
-<attribute name="VALUE" x="33.5915" y="80.899" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="33.5915" y="77.724" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C8" gate="G$1" x="39.37" y="82.55" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.814" y="85.471" size="1.778" layer="95"/>
-<attribute name="VALUE" x="43.7515" y="80.5815" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="43.7515" y="78.0415" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND14" gate="1" x="29.21" y="73.66" smashed="yes">
 <attribute name="VALUE" x="26.67" y="71.12" size="1.778" layer="96"/>
