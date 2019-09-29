@@ -14,6 +14,8 @@ This makes the process of flash the ICs so much faster than conventional way and
 ![enter image description here](https://lh3.googleusercontent.com/AHHnmKVK-I-i_wTlw6jTIGntzJRpIFq3xoOx97R3P0ko0mQc31HL2QWThcjjNv_U7E4xbQ02cF6MKQ=s2000)
 
 ## Bill of Materials
+To mount the components on the board, follow the instructions: [Designator References](https://github.com/TiagoPaulaSilva/GimmeSoul/blob/master/Hardware/1.%20Mounting/Silk%20Screen.png)
+
 | Qty | Parts | Description | Value | Package |
 |--|--|--|--|--|
 2|R2/R3|SMD Resistor|100R ±5%|R0805
