@@ -4,6 +4,9 @@ GimmeSoul is a standalone (no computer needed) bootloader programmer for ATmega3
 
 This makes the process of flash the ICs so much faster than conventional way and eliminates the need for a computer.
 
+## Mounted PCB
+![Mounted PCB](https://lh3.googleusercontent.com/wEgzzrwWFOXGO3YkiD_pZtRbCWQpugLJpkmKNPH7OJ_K2hq77eh_ZTPw8kOnITuWVGsAojfYdgyA0w)
+
 ## PCB Gerber Preview
 ![enter image description here](https://lh3.googleusercontent.com/nIToOH6tOP8V6YTB77NmxzNem5c2N3wR6zNyF-sfcsGTXmM2lakn-CSjGWn2qzALiI3_n1oUDvh1pQ)
 
@@ -30,9 +33,6 @@ This makes the process of flash the ICs so much faster than conventional way and
 1|JP2|PTH Pin Header|Male 180°|1X10
 1|JP3|PTH Pin Header|Male 180°|1X06
 1|ZX1|PTH ZIF socket|28-pin|Slim Width
-
-## Mounted PCB
-![Mounted PCB](https://lh3.googleusercontent.com/wEgzzrwWFOXGO3YkiD_pZtRbCWQpugLJpkmKNPH7OJ_K2hq77eh_ZTPw8kOnITuWVGsAojfYdgyA0w)
 
 ## Video
 [# GimmeSoul - How to](https://vimeo.com/363052289?activityReferer=1)
