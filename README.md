@@ -1,5 +1,8 @@
 # GimmeSoul
 
+[![Build](https://img.shields.io/badge/Build-Stable-green.svg)]()
+[![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
+
 GimmeSoul is a standalone (no computer needed) bootloader programmer for ATmega328P. It can be used to facilitate programming of chips used by [Arduino UNO](https://store.arduino.cc/usa/arduino-uno-rev3) and [Senaino](https://github.com/TiagoPaulaSilva/Senaino), for example. 
 
 This makes the process of flash the ICs so much faster than conventional way and eliminates the need for a computer.
