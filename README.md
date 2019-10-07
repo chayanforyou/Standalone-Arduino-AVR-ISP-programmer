@@ -34,7 +34,7 @@ To mount the components on the board, follow the instructions: [Designator Refer
 1|SG5|PTH Buzzer|5V Passive|F/QMBIII
 1|LED1|PTH LED|Green|5 mm
 1|LED2|PTH LED|Red|5 mm
-1|JP1/JP4|PTH Pin Header|Male 180°|1X08
+2|JP1/JP4|PTH Pin Header|Male 180°|1X08
 1|JP2|PTH Pin Header|Male 180°|1X10
 1|JP3|PTH Pin Header|Male 180°|1X06
 1|ZX1|PTH ZIF socket|28-pin|Slim Width
