@@ -40,7 +40,7 @@ To mount the components on the board, follow the instructions: [Designator Refer
 1|ZX1|PTH ZIF socket|28-pin|Slim Width
 
 ## How To
-[SETUP Tutorial](https://github.com/TiagoPaulaSilva/GimmeSoul/wiki)
+[SETUP Tutorial](https://github.com/TiagoPaulaSilva/GimmeSoul/wiki/SETUP)
 
 ## Video
 [# GimmeSoul - How to](https://vimeo.com/363052289?activityReferer=1)
