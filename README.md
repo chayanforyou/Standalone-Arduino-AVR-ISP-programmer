@@ -8,13 +8,13 @@ GimmeSoul is a standalone (no computer needed) bootloader programmer for ATmega3
 This makes the process of flash the ICs so much faster than conventional way and eliminates the need for a computer.
 
 ## Mounted PCB
-![Mounted PCB](https://lh3.googleusercontent.com/wEgzzrwWFOXGO3YkiD_pZtRbCWQpugLJpkmKNPH7OJ_K2hq77eh_ZTPw8kOnITuWVGsAojfYdgyA0w)
+<img src="https://github.com/TiagoPaulaSilva/GimmeSoul/blob/master/Others/Mounted%20PCB.jpg" width="50%" height="50%">
 
 ## PCB Gerber Preview
-![enter image description here](https://lh3.googleusercontent.com/nIToOH6tOP8V6YTB77NmxzNem5c2N3wR6zNyF-sfcsGTXmM2lakn-CSjGWn2qzALiI3_n1oUDvh1pQ)
+<img src="https://github.com/TiagoPaulaSilva/GimmeSoul/blob/master/Others/GimmeSoul%20Gerber%20Preview.png" width="50%" height="50%">
 
 ## Schematic
-![enter image description here](https://lh3.googleusercontent.com/AHHnmKVK-I-i_wTlw6jTIGntzJRpIFq3xoOx97R3P0ko0mQc31HL2QWThcjjNv_U7E4xbQ02cF6MKQ=s2000)
+<img src="https://github.com/TiagoPaulaSilva/GimmeSoul/blob/master/Others/GimmeSoul%20Schematic%20Preview.png" width="100%" height="100%">
 
 ## Bill of Materials
 To mount the components on the board, follow the instructions: [Designator References](https://github.com/TiagoPaulaSilva/GimmeSoul/blob/master/Hardware/1.%20Mounting/Silk%20Screen.png)
