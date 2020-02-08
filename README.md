@@ -43,7 +43,7 @@ To mount the components on the board, follow the instructions: [Designator Refer
 [SETUP Tutorial](https://github.com/TiagoPaulaSilva/GimmeSoul/wiki/SETUP)
 
 ## Video
-[# GimmeSoul - How to](https://vimeo.com/363052289?activityReferer=1)
+[# GimmeSoul - Demo](https://vimeo.com/363052289?activityReferer=1)
 
 ### Contributing
 0. Give this project a :star:
