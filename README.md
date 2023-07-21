@@ -1,23 +1,23 @@
 # GimmeSoul
 
-[![Status](https://img.shields.io/badge/Status-Finished-green.svg)](https://github.com/TiagoPaulaSilva/GimmeSoul)
+[![Status](https://img.shields.io/badge/Status-Finished-green.svg)](https://github.com/import-tiago/GimmeSoul)
 [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
 
-GimmeSoul is a standalone (no computer needed) bootloader programmer for ATmega328P. It can be used to facilitate programming of chips used by [Arduino UNO](https://store.arduino.cc/usa/arduino-uno-rev3) and [Senaino](https://github.com/TiagoPaulaSilva/Senaino), for example. 
+GimmeSoul is a standalone (no computer needed) bootloader programmer for ATmega328P. It can be used to facilitate programming of chips used by [Arduino UNO](https://store.arduino.cc/usa/arduino-uno-rev3) and [Senaino](https://github.com/import-tiago/Senaino), for example. 
 
 This makes the process of flash the ICs so much faster than conventional way and eliminates the need for a computer.
 
 ## Mounted PCB
-<img src="https://github.com/TiagoPaulaSilva/GimmeSoul/blob/master/Others/Mounted%20PCB.jpg" width="50%" height="50%">
+<img src="https://github.com/import-tiago/GimmeSoul/blob/master/Others/Mounted%20PCB.jpg" width="50%" height="50%">
 
 ## PCB Gerber Preview
-<img src="https://github.com/TiagoPaulaSilva/GimmeSoul/blob/master/Others/GimmeSoul%20Gerber%20Preview.png" width="50%" height="50%">
+<img src="https://github.com/import-tiago/GimmeSoul/blob/master/Others/GimmeSoul%20Gerber%20Preview.png" width="50%" height="50%">
 
 ## Schematic
-<img src="https://github.com/TiagoPaulaSilva/GimmeSoul/blob/master/Others/GimmeSoul%20Schematic%20Preview.png" width="100%" height="100%">
+<img src="https://github.com/import-tiago/GimmeSoul/blob/master/Others/GimmeSoul%20Schematic%20Preview.png" width="100%" height="100%">
 
 ## Bill of Materials
-To mount the components on the board, follow the instructions: [Designator References](https://github.com/TiagoPaulaSilva/GimmeSoul/blob/master/Hardware/1.%20Mounting/Silk%20Screen.png)
+To mount the components on the board, follow the instructions: [Designator References](https://github.com/import-tiago/GimmeSoul/blob/master/Hardware/1.%20Mounting/Silk%20Screen.png)
 
 | Qty | Parts | Description | Value | Package |
 |--|--|--|--|--|
@@ -40,7 +40,7 @@ To mount the components on the board, follow the instructions: [Designator Refer
 1|ZX1|PTH ZIF socket|28-pin|Slim Width
 
 ## How To
-[SETUP Tutorial](https://github.com/TiagoPaulaSilva/GimmeSoul/wiki/SETUP)
+[SETUP Tutorial](https://github.com/import-tiago/GimmeSoul/wiki/SETUP)
 
 ## Video
 [# GimmeSoul - Demo](https://vimeo.com/363052289?activityReferer=1)
@@ -48,7 +48,7 @@ To mount the components on the board, follow the instructions: [Designator Refer
 ### Contributing
 0. Give this project a :star:
 1. Create an issue and describe your idea.
-2. [Fork it](https://github.com/TiagoPaulaSilva/GimmeSoul/fork).
+2. [Fork it](https://github.com/import-tiago/GimmeSoul/fork).
 3. Create your feature branch (`git checkout -b my-new-feature`).
 4. Commit your changes (`git commit -a -m "Added feature title"`).
 5. Publish the branch (`git push origin my-new-feature`).
@@ -56,4 +56,4 @@ To mount the components on the board, follow the instructions: [Designator Refer
 7. Done! :heavy_check_mark:
 
 ### License Information
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">GimmeSoul</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/TiagoPaulaSilva" property="cc:attributionName" rel="cc:attributionURL">Tiago Silva</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="[Standalone AVR Chip Programmer](https://learn.adafruit.com/standalone-avr-chip-programmer/)" rel="dct:source">[Standalone AVR Chip Programmer](https://learn.adafruit.com/standalone-avr-chip-programmer/)</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://twitter.com/tiagopsilvaa" rel="cc:morePermissions">tiagodepaulasilva@gmail.com</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">GimmeSoul</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/import-tiago" property="cc:attributionName" rel="cc:attributionURL">Tiago Silva</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="[Standalone AVR Chip Programmer](https://learn.adafruit.com/standalone-avr-chip-programmer/)" rel="dct:source">[Standalone AVR Chip Programmer](https://learn.adafruit.com/standalone-avr-chip-programmer/)</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://twitter.com/import_tiago" rel="cc:morePermissions">tiagodepaulasilva@gmail.com</a>.
