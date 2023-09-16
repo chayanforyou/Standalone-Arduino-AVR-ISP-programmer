@@ -1,4 +1,4 @@
-# GimmeSoul
+# Standalone AVR programmer (GimmeSoul)
 
 [![Status](https://img.shields.io/badge/Status-Finished-green.svg)](https://github.com/import-tiago/GimmeSoul)
 [![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
